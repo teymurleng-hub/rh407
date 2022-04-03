@@ -4,5 +4,5 @@
   tasks:
   - name: copy motd
     copy:
-     content: "idi na xuy"
+     content: "Hello"
      dest: /etc/motd
