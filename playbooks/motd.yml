@@ -1,8 +1,0 @@
----
-- name: motd
-  hosts: all
-  tasks:
-  - name: copy motd
-    copy:
-     content: "Hello"
-     dest: /etc/motd
